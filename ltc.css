@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #aaa;
+}
+
+
+.card{border: 2px #eee;
+    background-color: #fff;
+    align-items: center;
+    margin: 1.5rem 10rem;
+}
+.display{
+     list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+img{
+    object-fit:fill;
+}
+.title-1{
+    color:#222;
+    font-size: 2.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title-2{
+    text-transform: uppercase;
+   color:  #999;
+   font-size: 1.2rem;
+}
+.text-content{
+    padding: 1rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.line{
+    display: inline-block;
+    height: .3rem;
+    width:2rem ;
+    border-radius: 10px;
+    background-color:#2fcf5a ;
+}
+.btn-rm{
+   display: flex;
+   justify-content: right;
+   color:#2fcf5a ;
+}
